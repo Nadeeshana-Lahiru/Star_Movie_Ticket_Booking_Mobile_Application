@@ -64,11 +64,11 @@ This project was created to:
 
 |  📱 First Page | 🧾 Registration | 🔑 Login  | 🏠 Home |
 |------------------|----------|----------|----------------|
-| <img width="577" height="1040" alt="image1" src="https://github.com/user-attachments/assets/1fdfda95-b361-45fd-9abd-2ccba7698b75" /> | <img width="577" height="1040" alt="iamge2" src="https://github.com/user-attachments/assets/c597d397-9b35-4418-a5f8-74c44445afc1" /> | <img width="577" height="1040" alt="image3" src="https://github.com/user-attachments/assets/4d147ea5-85fb-45f0-b84c-44becdb750c6" /> | <img width="577" height="1040" alt="image4" src="https://github.com/user-attachments/assets/ac9532fb-d5e8-4e0b-b4a9-a43b51dc082c" /> |
+| <img width="577" height="1040" alt="image1" src="https://github.com/user-attachments/assets/1fdfda95-b361-45fd-9abd-2ccba7698b75" /> | <img width="480" height="980" alt="iamge2" src="https://github.com/user-attachments/assets/c597d397-9b35-4418-a5f8-74c44445afc1" /> | <img width="560" height="1020" alt="image3" src="https://github.com/user-attachments/assets/4d147ea5-85fb-45f0-b84c-44becdb750c6" /> | <img width="550" height="1000" alt="image4" src="https://github.com/user-attachments/assets/ac9532fb-d5e8-4e0b-b4a9-a43b51dc082c" /> |
 
 | 📆 Date & Time | 🎫 Seat Selection | 💳 Payment | 👤 Profile Page |
 |-------------------|----------------------|------------|--------------------|
-| <img width="577" height="1040" alt="image5" src="https://github.com/user-attachments/assets/f61098d2-d337-419a-a1c9-7239f6d34f4b" /> | <img width="577" height="1040" alt="image6" src="https://github.com/user-attachments/assets/c5cfa716-b606-458d-aac3-ab42f4c81f8d" /> | <img width="577" height="1040" alt="image7" src="https://github.com/user-attachments/assets/cff6e9fb-187c-48d0-b620-646f8e1775cd" /> | <img width="577" height="1040" alt="image8" src="https://github.com/user-attachments/assets/7d7d7678-08a4-444a-a874-2b11fa2e90ca" /> |
+| <img width="580" height="1080" alt="image5" src="https://github.com/user-attachments/assets/f61098d2-d337-419a-a1c9-7239f6d34f4b" /> | <img width="580" height="900" alt="image6" src="https://github.com/user-attachments/assets/c5cfa716-b606-458d-aac3-ab42f4c81f8d" /> | <img width="577" height="1040" alt="image7" src="https://github.com/user-attachments/assets/cff6e9fb-187c-48d0-b620-646f8e1775cd" /> | <img width="577" height="1040" alt="image8" src="https://github.com/user-attachments/assets/7d7d7678-08a4-444a-a874-2b11fa2e90ca" /> |
 
 > 📸 *All screenshots captured directly from the Android emulator and mobile device testing.*
 
