@@ -63,7 +63,8 @@ This project was created to:
 ## 🖼️ Application Screenshots
 
 **📄 Registration Page**  
-![Registration Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image1.png)
+
+![f1movie](https://github.com/user-attachments/assets/12cb7592-b5f0-435f-b5d9-454750c0964d)
 
 **🔑 Login Page**  
 ![Login Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image2.png)
