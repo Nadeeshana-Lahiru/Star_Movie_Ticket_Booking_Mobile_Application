@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="20dp"
+    tools:context=".DateTimeActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date abd Time"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_movie_details_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/rl_header"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_movie_poster_small"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f1movie"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tv_movie_title_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_movie_duration_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="~ 2hr 35min"
+                android:textColor="#A8A8A8"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4A4A4A"
+        android:layout_below="@id/ll_movie_details_header"
+        android:layout_marginHorizontal="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_select_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:text="SELECT DATE"
+        android:textColor="#A8A8A8"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_select_date_label"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <RadioButton
+            android:id="@+id/rb_date1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="OCT\n01\nWED"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_date2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="OCT\n02\nTHU"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_date3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="OCT\n03\nFRI"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_date4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="OCT\n04\nSAT"
+            android:textColor="@android:color/white"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_select_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_dates"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:text="SELECT TIME"
+        android:textColor="#A8A8A8"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/rg_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_select_time_label"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <RadioButton
+            android:id="@+id/rb_time1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="10:30 AM"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_time2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="02:00 PM"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_time3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_date_time"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="07:30 PM"
+            android:textColor="@android:color/white"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#45539B"
+        app:strokeColor="#EDE6E6"
+        app:strokeWidth="1dp"
+        android:text="Proceed to Select Seat"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>
