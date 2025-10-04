@@ -88,6 +88,8 @@ This project was created to:
 
 ---
 
+📄 [License](./LICENSE.md): Proprietary – Permission Required
+
 ## 🧾 Note
 This application is a **learning-oriented project** developed to practice and demonstrate core Android programming concepts such as activity navigation, input validation, and UI component integration.  
 
