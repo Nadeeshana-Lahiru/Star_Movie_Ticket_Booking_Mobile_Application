@@ -62,21 +62,15 @@ This project was created to:
 
 ## 🖼️ Application Screenshots
 
-**📄 Registration Page**  
+|  📱 First Page | 🧾 Registration | 🔑 Login  | 🏠 Home |
+|------------------|----------|----------|----------------|
+| <img width="577" height="1040" alt="image1" src="https://github.com/user-attachments/assets/1fdfda95-b361-45fd-9abd-2ccba7698b75" /> | <img width="576" height="1038" alt="iamge2" src="https://github.com/user-attachments/assets/c597d397-9b35-4418-a5f8-74c44445afc1" /> | <img width="574" height="1040" alt="image3" src="https://github.com/user-attachments/assets/4d147ea5-85fb-45f0-b84c-44becdb750c6" /> | <img width="569" height="1041" alt="image4" src="https://github.com/user-attachments/assets/ac9532fb-d5e8-4e0b-b4a9-a43b51dc082c" /> |
 
-![f1movie](https://github.com/user-attachments/assets/12cb7592-b5f0-435f-b5d9-454750c0964d)
+| 📆 Date & Time | 🎫 Seat Selection | 💳 Payment | 👤 Profile Page |
+|-------------------|----------------------|------------|--------------------|
+| <img width="570" height="1043" alt="image5" src="https://github.com/user-attachments/assets/f61098d2-d337-419a-a1c9-7239f6d34f4b" /> | <img width="573" height="1038" alt="image6" src="https://github.com/user-attachments/assets/c5cfa716-b606-458d-aac3-ab42f4c81f8d" /> | <img width="577" height="1042" alt="image7" src="https://github.com/user-attachments/assets/cff6e9fb-187c-48d0-b620-646f8e1775cd" /> | <img width="583" height="1043" alt="image8" src="https://github.com/user-attachments/assets/7d7d7678-08a4-444a-a874-2b11fa2e90ca" /> |
 
-**🔑 Login Page**  
-![Login Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image2.png)
-
-**🏠 Home Page**  
-![Home Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image3.png)
-
-**📆 Select Date and Time Page**  
-![Select Date and Time Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image4.png)
-
-**🎫 Select Seat Page**  
-![Select Seat Page](C:\Users\Nadeeshana\Lahiru\Downloads\Star Movie Mobile App Images\image5.png)
+> 📸 *All screenshots captured directly from the Android emulator and mobile device testing.*
 
 ---
 
@@ -90,6 +84,8 @@ This project was created to:
 
 📄 [License](./LICENSE.md): Proprietary – Permission Required
 
+---
+
 ## 🧾 Note
 This application is a **learning-oriented project** developed to practice and demonstrate core Android programming concepts such as activity navigation, input validation, and UI component integration.  
 
@@ -98,4 +94,3 @@ It serves as a **foundation project** for understanding mobile app design and de
 ---
 
 ⭐ *End of Document* ⭐
-"# Star_Movie_Ticket_Booking_Mobile_Application" 
